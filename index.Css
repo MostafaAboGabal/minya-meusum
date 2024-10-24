@@ -1,0 +1,99 @@
+/*  ruls    */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* end ruls  */
+/* start varibales*/
+:root{
+    --main-color: #19c8fa;
+    --transparent-color: rgb(15 116 143 / 70%);
+}
+/*end varibales*/
+@media(max-width: 768px){
+.container{
+    width: 750;
+}
+@media(max-width: 990px){
+    .container{
+        width: 973;
+    }
+}
+@media(max-width: 1220px){
+    .container{
+        width: 1170;
+    }
+}
+/*start componets*/
+
+@media(max-width:767px)
+{
+
+
+}
+
+/*end componets*/
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:"Open Sans", sans-serif ;
+}
+ul{
+    list-style: none;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*start landing*/
+.landing{
+    background-color: #1f2021;
+    min-height: 100vh;
+    background-image: url(كلية\ سياحه.jfif);
+    background-size: cover;
+    position: relative;
+}
+.landing .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 70%);
+}
+.landing .text{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    padding: 50px;
+    color: rgb(170, 47, 47);
+    background-color:#20c997;
+    display: flex;
+    justify-content: flex-end;
+}
+.features{
+    background-color: rgb(159, 180, 180);
+}
+.features .link{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 3px;
+    background-color: aquamarine;
+    font-size: 23px;
+    list-style: none;
+    line-height:1.2;
+}
+.features a{
+    text-decoration: none;
+}
